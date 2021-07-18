@@ -1,0 +1,23 @@
+.panda-bg-info{
+    background-color: #fceae8;
+}
+ .buy-now-button {
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+    }
+.catagories img{
+    width: 100px;
+}
+.panda-shoes-bg-orange{
+    background-color: orange;
+}
+.panda-shoes-bg-orchid{
+    background-color: orchid;
+}
+.panda-shoes-bg-blue{
+    background-color: blue;
+}
