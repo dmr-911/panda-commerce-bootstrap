@@ -12,9 +12,9 @@
 </head>
 <body>
     <!-- Header start -->
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
               </a>
@@ -27,27 +27,27 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Bagpack</a>
+                    <a class="nav-link" href="#bags">Bagpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
           <!-- slider start  -->
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide container mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active panda-bg-info bg-gradient p-5">
                   <div class="row d-flex align-items-center">
                       <div class="col-lg-7">
                           <h1>Cool Dude Headphone</h1>
                           <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                          <h1>$420</h1>
+                          <h1>$520</h1>
                           <button class="btn buy-now-button text-white">Buy Now</button>
                       </div>
                       <div class="col-lg-5">
@@ -60,7 +60,7 @@
                     <div class="col-lg-7">
                         <h1>Cool Dude Headphone</h1>
                         <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                        <h1>$420</h1>
+                        <h1>$520</h1>
                         <button class="btn buy-now-button text-white">Buy Now</button>
                     </div>
                     <div class="col-lg-5">
@@ -73,7 +73,7 @@
                     <div class="col-lg-7">
                         <h1>Cool Dude Headphone</h1>
                         <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                        <h1>$420</h1>
+                        <h1>$520</h1>
                         <button class="btn buy-now-button text-white">Buy Now</button>
                     </div>
                     <div class="col-lg-5">
@@ -118,7 +118,7 @@
         </section>
         <!-- catagories section end  -->
         <!-- shoes section  -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -162,7 +162,7 @@
         <!-- shoes section ended  -->
 
         <!-- bags section started -->
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
             <h1>Bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -205,7 +205,7 @@
         </section>
         <!-- bags section ended  -->
         <!-- subscribe section start  -->
-        <section class="container d-flex justify-content-center panda-bg-info align-items-center rounded-3" style="height: 300px;">
+        <section class="container d-flex justify-content-center panda-bg-info align-items-center rounded-3" style="height: 300px;" id="subscribe">
             <div>
                 <h1>Let's stay in touch</h1>
                 <p>Get updates on sales, specials and more</p>
